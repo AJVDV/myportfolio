@@ -1,0 +1,36 @@
+body{
+  margin: 20px;
+  background-color: #6495ED;
+}
+
+h1, h2, h3 {
+  font-family: sans-serif, Fantasy;
+  font-color: #B8860B
+}
+header div h1{
+  font-size: 75px;
+  text-align: center;
+}
+p {
+  font-family: Helvetica, Serif, "Comic Sans";
+  font-size: 25px;
+}
+footer p {
+  text-align: right;
+}
+a:link{
+  font-color: #0000FF;
+}
+a:visited{
+  font-color: #00FFFF;
+}
+a:hover{
+  font-color: #7FFFD4;
+}
+a:active{
+  font-color: #F0F8FF
+}
+header main footer{
+  padding: 300px;
+}
+
