@@ -3,19 +3,19 @@
   border-radius: 50%;
 }
 img{
-  width:600;
+  width:600px;
   text-align: center;
 }
 
 /* first set a nice background color with proper margins*/
 body{
   margin: 20px;
-  background-color: #6495ED;
+  background-color: CornflowerBlue;
 }
 /* wanted to set my various text based stylings and sizes, which i slisted below*/
 h1, h2, h3 {
   font-family: sans-serif, Fantasy;
-  text-color: #B8860B;
+  color: DarkGoldenRod;
 }
 header div h1{
   font-size: 75px;
@@ -33,16 +33,16 @@ footer p {
 
 /*I like to customize the look of links in there different active stages, that is set up below*/
 a:link{
-  text-color: #0000FF;
+  color: #0000FF;
 }
 a:visited{
-  text-color: #00FFFF;
+  color: #00FFFF;
 }
 a:hover{
-  text-color: #7FFFD4;
+  color: #7FFFD4;
 }
 a:active{
-  text-color: #F0F8FF;
+  color: #F0F8FF;
 }
 /* set up padding for all three major components in the body */
 header main footer{
