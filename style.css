@@ -6,7 +6,7 @@ body{
 /* wanted to set my various text based stylings and sizes, which i slisted below*/
 h1, h2, h3 {
   font-family: sans-serif, Fantasy;
-  text-color: #B8860B
+  text-color: #B8860B;
 }
 header div h1{
   font-size: 75px;
@@ -41,7 +41,7 @@ a:hover{
   text-color: #7FFFD4;
 }
 a:active{
-  text-color: #F0F8FF
+  text-color: #F0F8FF;
 }
 /* set up padding for all three major components in the body */
 header main footer{
