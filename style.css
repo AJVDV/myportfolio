@@ -21,9 +21,13 @@ footer p {
   text-align: right;
   font-size:15px;
 }
-/*Defining the rule to have a circular image display */
+/*Defining the rule to have a circular image display and to be set to a reasonable size */
 .image-circle {
   border-radius: 50%;
+}
+img{
+  width:600;
+  text-align: center;
 }
 
 /*I like to customize the look of links in there different active stages, that is set up below*/
