@@ -1,11 +1,12 @@
+/* first set a nice background color with proper margins*/
 body{
   margin: 20px;
   background-color: #6495ED;
 }
-
+/* wanted to set my various text based stylings and sizes, which i slisted below*/
 h1, h2, h3 {
   font-family: sans-serif, Fantasy;
-  font-color: #B8860B
+  text-color: #B8860B
 }
 header div h1{
   font-size: 75px;
@@ -15,21 +16,30 @@ p {
   font-family: Helvetica, Serif, "Comic Sans";
   font-size: 25px;
 }
+
 footer p {
   text-align: right;
+  font-size:15px;
 }
+/*Defining the rule to have a circular image display */
+.image-circle {
+  border-radius: 50%;
+}
+
+/*I like to customize the look of links in there different active stages, that is set up below*/
 a:link{
-  font-color: #0000FF;
+  text-color: #0000FF;
 }
 a:visited{
-  font-color: #00FFFF;
+  text-color: #00FFFF;
 }
 a:hover{
-  font-color: #7FFFD4;
+  text-color: #7FFFD4;
 }
 a:active{
-  font-color: #F0F8FF
+  text-color: #F0F8FF
 }
+/* set up padding for all three major components in the body */
 header main footer{
   padding: 300px;
 }
