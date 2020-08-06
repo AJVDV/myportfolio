@@ -1,8 +1,6 @@
 /*Defining the rule to have a circular image display and to be set to a reasonable size */
 .image-circle {
   border-radius: 50%;
-}
-header div div img{
   width:600px;
   text-align: center;
 }
@@ -15,7 +13,7 @@ body{
 /* wanted to set my various text based stylings and sizes, which i slisted below*/
 h1, h2, h3 {
   font-family: sans-serif, Fantasy;
-  color: DarkGoldenRod;
+  color: #006400;
 }
 header div h1{
   font-size: 75px;
@@ -24,6 +22,7 @@ header div h1{
 p {
   font-family: Helvetica, Serif, "Comic Sans";
   font-size: 25px;
+  color: #8FBC8F;
 }
 
 footer p {
