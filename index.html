@@ -2,7 +2,8 @@
 <html>
 <head>
 <!--Noting that these are the only meta attributes I recognize, I'm not actually sure that I need the charset or not -->
-<meta charset="utf-8" name="viewport" content="width=device-width"/>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width"/>
 <title>Andrew's Portfolio</title>
   <!--I doubt that I need the normalize css sheet for this simple of a project, but I put it in just in case -->
 <link
@@ -10,16 +11,18 @@
   rel="stylesheet"
   type="text/css"
 />
+  <!-- the link to my css sheet for styling -->
 <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
+  <!-- this is my header with a circular picture of myself centered with my name as the page title along with a clickable link to internal locations on the page -->
   <div class=pageContainer>
   </div>
   <header>
    <div id="header">
      <h1>Andrew VanDerVeen</h1>
      <div class="image-container">
-       <img = src="images/20200804_103513.jpg" class="image-circle" />
+       <img src="images/20200804_103513.jpg" class="image-circle" />
      </div>
      <p>Novice Software Developer</p>
      <nav>
@@ -33,7 +36,7 @@
   </header>
   <main>
   <hr>
-  <img
+    <!-- An about me section outlining some of my past, skills, and interests relating to my future in programming. It contains an unordered list of interests, as well as a nested ordered list-->
   <div id="about-me">
    <header>
     <h2>About Me</h2>
@@ -61,28 +64,33 @@
     </p>
    </footer>
   </div>
+  <!-- This is just a basic info area for my immediate area of residence, would like to update it in the future to contain more relevant information regarding the area-->
   <div id="location">
    <header>
     <h2>My Location</h2>
    </header>
    <article>
+     <h3>A bit about my current residential area<h3>
+     I am currently in Kent Washington, which is in the immediate Seattle area, and while a in a suburban area, it is in close proximity to enough for very good networking.
    I'm not sure what sort of information, be it an actual article, weather reports, or perhaps some sort of local news, to include here yet. For now this text will simply have to act as a placeholder. I will see if I can find another relevant article to pull from.
    </article>
    <footer>
     <p>Odd that I chose not to put my actual location in the main portion of this section, but I am based out of Kent WA.</p>
    </footer>
   </div>
+     <!-- a basic contact me area with my email address and links to relevant social media -->
   <div id="contact">
     <header>
       <h2>Ways to contact me</h2>
-      <h3>
     </header>
     <p><ul>
       <li><a href="https://www.github.com/AJVDV/">My GitHub Profile</a>
       <li><a href="https://www.linkedin.com/in/andrew-vanderveen-0360b91b4">My LinkedIn Profile</a>
-      <li><a href="mailto: vulpuslagopus@hotmail.com">My E-mail</a>
+      <li><a href="mailto:vulpuslagopus@hotmail.com">My E-mail</a>
       </ul></p>
+     </div>
  </main>
+  <!-- Footer containing a quick acknowledgement of those who helped me get this far -->
  <footer>
   <div id="footer">
     <p>Thanks, and proper acknowledgement to Thinkful, Repl.it, My mentor, and others who have helped me realize this project.</p>
