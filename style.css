@@ -29,7 +29,17 @@ p {
   line-height: 24px
 }
 
-.about-me-footer .location-footer footer p  {
+footer p  {
+  text-align: right;
+  font-size:15px;
+}
+
+.about-me-footer p {
+  text-align: right;
+  font-size:15px;
+}
+
+.location-footer p  {
   text-align: right;
   font-size:15px;
 }
