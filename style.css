@@ -34,12 +34,12 @@ footer p  {
   font-size:15px;
 }
 
-.about-me-footer p {
+p.about-me-footer {
   text-align: right;
   font-size:15px;
 }
 
-.location-footer p  {
+p.location-footer {
   text-align: right;
   font-size:15px;
 }
