@@ -12,6 +12,12 @@ body{
   margin: 20px;
   background-color: CornflowerBlue;
 }
+/*styling the height ruler*/
+hr{
+  height: 7px;
+  background-color: black;
+}
+
 /* wanted to set my various text based stylings and sizes, which i slisted below*/
 h1, h2, h3 {
   font-family: sans-serif, Fantasy;
